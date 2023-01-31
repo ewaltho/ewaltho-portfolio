@@ -1,0 +1,142 @@
+* {
+    font-family: 'Gruppo', cursive;
+}
+
+:root {
+    --background: #E1E2EF;
+    --light: #E6CEF3;
+    --bright: #B497D6;
+    --deep: #1c4b84;
+    --dark: #0d0721;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--background);
+}
+
+header {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    border-bottom: 2px solid var(--bright);
+}
+
+nav a {
+    margin: 15px;
+    padding: 5px;
+    text-decoration: none;
+    color: var(--deep);
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    text-shadow: 2px 2px 2px var(--bright);
+}
+
+header h1 {
+    font-size: 40px;
+    color: var(--deep);
+}
+
+.main-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+.img-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile-picture {
+    width: 40%;
+    margin-left: 200px;
+    padding: 20px;
+}
+
+.text {
+    font-size: 20px;
+    width: 100%;
+    margin-right: 100px;
+}
+
+.text a {
+    color: var(--bright);
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.text a:hover {
+    color: var(--dark);
+    text-shadow: 1.5px 2px 2px var(--bright);
+}
+
+.feature {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.project-header {
+    text-align: center;
+    border-bottom: 2px solid var(--bright);
+    padding: 5px;
+    font-size: 40px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.project-card,
+.feature {
+    position: relative;
+}
+
+.project-caption {
+    width: 20%;
+    text-align: center;
+    position: absolute;
+    bottom: 1px;
+    background: var(--deep);
+    padding: 5px;
+    color: var(--light);
+}
+
+.project-img,
+.feature-project {
+    border: 3px solid var(--bright);
+    width: 100%;
+    height: auto;
+    transition: 0.8s ease;
+}
+
+.project-img:hover ,
+.feature-project:hover {
+    opacity: 0.55;
+    border: 10px solid var(--bright);
+    margin: 5px;
+}
