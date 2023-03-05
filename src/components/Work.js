@@ -39,7 +39,7 @@ export default function Work() {
                 </Typography>
             </CardContent>
             <CardActions style={{background: '#fcd5ea'}}>
-                <Button size='small' href='https://wabarringer.github.io/project-1/' target='_blank'>Learn More</Button>
+                <Button size='small' href='https://wildthornapothecary.herokuapp.com/' target='_blank'>Learn More</Button>
             </CardActions>
             </Card>
 
@@ -54,7 +54,7 @@ export default function Work() {
                 </Typography>
             </CardContent>
             <CardActions style={{background: '#fcd5ea'}}>
-                <Button size='small' href='https://wabarringer.github.io/project-1/' target='_blank'>Learn More</Button>
+                <Button size='small' href='https://ewaltho.github.io/penny-pics/' target='_blank'>Learn More</Button>
             </CardActions>
             </Card>
         </div>
