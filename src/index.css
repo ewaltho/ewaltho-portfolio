@@ -1,13 +1,96 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@import url('https://fonts.googleapis.com/css2?family=Adamina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+body {
+    background-image: url(./images/wallpaper.jpg);
+    background-size: 2000px;
+    font-family: 'Adamina', serif;
+}
+
+.Header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.Header .logo{
+    font-family: 'Allura', cursive;
+    font-size: 100px;
+    margin: 10px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.Nav a {
+    font-size: 18px;
+    margin: 10px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    transition: ease-in-out 0.8s;
+}
+
+.Nav a:hover{
+    text-shadow: 4px 4px #B1C1E7;
+}
+
+.Home,
+.About {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Home a:hover {
+    text-shadow: 2px 2px 10px #e7b9f3;
+}
+
+.Home img {
+    margin-right: 50px;
+    width: 450px;
+    height: 450px;
+    box-shadow: -15px -15px #B1C1E7;
+}
+
+.About img {
+    margin-right: 50px;
+    width: auto;
+    height: 25vw;
+    box-shadow: -15px -15px #B1C1E7;
+}
+
+.Contact .form,
+textarea {
+    border: none;
+    margin: 10px;
+    width: 60vw;
+    height: 28px;
+    background: #eef2faa8;
+    box-shadow: 2px 2px 20px #2C1647;
+    border-radius: 10px;
+}
+
+.Contact textarea {
+    height: 50px;
+    width: 59vw;
+}
+
+.Contact .button {
+    font-family: 'Adamina', serif;
+    transition: ease-in-out 0.8s;
+}
+
+.Contact .button:hover {
+    border: 1px solid #eef2faa8;
+    background: transparent;
 }
