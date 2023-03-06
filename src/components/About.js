@@ -1,6 +1,5 @@
 import React from 'react';
 import pfp from '../images/about-image.jpg'
-import { Link } from 'react-router-dom'
 import { Box, Container } from '@mui/material'
  
 export default function About() {
@@ -27,7 +26,7 @@ export default function About() {
                 </Box>
             </Container>
             <div className='card-right'>
-                <img src={pfp}/>
+                <img src={pfp} alt='woman from home page in a red shirt and tan pants smiling while riding a golden horse.'/>
             </div>
         </div>
     );

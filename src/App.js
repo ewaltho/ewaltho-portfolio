@@ -1,13 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Button } from '@mui/material'
 import Home from './components/Home'
 import About from './components/About'
 import Work from './components/Work'
 import Contact from './components/Contact'
 import Resume from './components/Resume'
 import Header from './Header'
-import createPalette from '@mui/material/styles/createPalette';
 
 const App = () => {
   return (

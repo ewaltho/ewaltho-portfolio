@@ -34,7 +34,7 @@ export default function Home() {
                 }}>Click here to see my work</Link>
             </Container>
             <div className='card-right'>
-                <img src={pfp} />
+                <img src={pfp} alt='pale woman with long blue hair and brown eyes gazing at the camera'/>
             </div>
         </div>
     );

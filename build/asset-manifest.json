@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2b8221fc.css",
+    "main.js": "/static/js/main.8d296858.js",
+    "static/media/penny-pics.png": "/static/media/penny-pics.9616c4de599fc88adc67.png",
+    "static/media/wildthorn.png": "/static/media/wildthorn.aee8a2bdeb583a67c0bd.png",
+    "static/media/profile-picture.jpg": "/static/media/profile-picture.04f740f6d73e7a762252.jpg",
+    "static/media/streamosaurus.png": "/static/media/streamosaurus.a88719d0d2662120dac4.png",
+    "static/media/about-image.jpg": "/static/media/about-image.0b63a1cfcff4e6ac5b41.jpg",
+    "static/media/wallpaper.jpg": "/static/media/wallpaper.92c63c04af5a67a59ed9.jpg",
+    "index.html": "/index.html",
+    "main.2b8221fc.css.map": "/static/css/main.2b8221fc.css.map",
+    "main.8d296858.js.map": "/static/js/main.8d296858.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b8221fc.css",
+    "static/js/main.8d296858.js"
+  ]
+}
