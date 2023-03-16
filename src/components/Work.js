@@ -3,6 +3,7 @@ import { Card, CardMedia, Button, Typography, CardContent, CardActions } from '@
 import streamosaurus from '../images/streamosaurus.png'
 import wildthorn from '../images/wildthorn.png'
 import pennypics from '../images/penny-pics.png'
+import cattention from '../images/cattention.jpg'
 
 export default function Work() {
     return (
@@ -55,6 +56,21 @@ export default function Work() {
             </CardContent>
             <CardActions style={{background: '#fcd5ea'}}>
                 <Button size='small' href='https://ewaltho.github.io/penny-pics/' target='_blank'>Learn More</Button>
+            </CardActions>
+            </Card>
+
+            <Card sx={{maxWidth: 500, margin: '10px', boxShadow: '2px 2px 20px #2C1647'}}>
+            <CardMedia sx={{height:300}}
+            image={cattention}
+            title='cattention'/>
+            <CardContent style={{background: '#fcd5ea'}}>
+                <Typography gutterBottom variant='h5'>CATtention</Typography>
+                <Typography variant='body2' color='text.secondary'>
+                    An ADHD friendly app to help those with ADHD to study or work in an efficient and fun way.
+                </Typography>
+            </CardContent>
+            <CardActions style={{background: '#fcd5ea'}}>
+                <Button size='small' href='https://cattention.netlify.app/' target='_blank'>Learn More</Button>
             </CardActions>
             </Card>
         </div>

@@ -64,8 +64,8 @@ body {
 
 .About img {
     margin-right: 50px;
-    width: auto;
-    height: 25vw;
+    height: auto;
+    width: 25vw;
     box-shadow: -15px -15px #B1C1E7;
 }
 
@@ -93,4 +93,24 @@ textarea {
 .Contact .button:hover {
     border: 1px solid #eef2faa8;
     background: transparent;
+}
+
+@media screen and (max-width: 1050px) {
+    .card-right img {
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .About{
+        flex-direction: column-reverse;
+    }
+    
+    .card-right img {
+        width: 60vw;
+    }
+
+    .bio {
+        font-size: 15px;
+    }
 }

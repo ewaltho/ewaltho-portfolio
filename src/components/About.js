@@ -22,7 +22,7 @@ export default function About() {
                 }}>
                     <p style={{
                         fontSize: '25px',
-                        padding: '30px'}}>A budding UI/UX Designer coming from being a freelance artist for almost 10 years. Based out of the Seattle area, I have an eye for the aesthetic and am not afraid of the less mainstream concepts. I have led the design on many projects and have produced my own as well. Outside of work I enjoy playing video games, horseback riding and playing Dungeons and Dragons.</p>
+                        padding: '30px'}} className="bio">A budding UI/UX Designer coming from being a freelance artist for almost 10 years. Based out of the Seattle area, I have an eye for the aesthetic and am not afraid of the less mainstream concepts. I have led the design on many projects and have produced my own as well. Outside of work I enjoy playing video games, horseback riding and playing Dungeons and Dragons.</p>
                 </Box>
             </Container>
             <div className='card-right'>
