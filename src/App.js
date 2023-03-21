@@ -6,6 +6,7 @@ import Work from './components/Work'
 import Contact from './components/Contact'
 import Resume from './components/Resume'
 import Header from './Header'
+import ThankYou from './components/ThankYou'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
             <Route path="/work" element={<Work />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/resume" element={<Resume />} />
+            <Route path="/thankyou" element={<ThankYou />} />
           </Routes>
       </BrowserRouter>
     </div>

@@ -1,10 +1,10 @@
-import React from 'react';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Container, Box } from "@mui/material"
 
 export default function Contact() {
     const [inputs, setInputs] = useState({});
 
+    
     const handleChange = (event) => {
         const email = event.target.email;
         const name = event.target.name;
@@ -12,11 +12,14 @@ export default function Contact() {
         const value = event.target.value;
         setInputs(values => ({ ...values, [email]: value, [name]: value, [message]: value}))
     }
-
+    
     const handleSubmit = (event) => {
         event.preventDefault();
         console.log(inputs);
     }
+    
+    const FORM_ENDPOINT = "https://public.herotofu.com/v1/64f2b680-c7a6-11ed-9be6-3704017c4748"
+    
     return (
         <Container style={{
             display: 'flex',
@@ -28,7 +31,7 @@ export default function Contact() {
                                     margin: '20px',
                                     padding: '30px',
                                     textAlign: 'center',
-                                    boxShadow: '2px 2px 20px #2C1647',
+                                    boxShadow: '2px 2px 20px #52414a',
                                     backgroundColor: 'transparent',
                                     borderRadius: '20px',
                                     width: '90vw'
@@ -37,7 +40,8 @@ export default function Contact() {
                     <label style={{fontSize: '20px', textAlign: 'center',display: 'flex',
                                     flexDirection: 'row',
                                     justifyContent: 'center',
-                                    alignItems: 'center'}}>
+                                    alignItems: 'center',
+                                    color: '#cdcfd1'}}>
                         Email:
                         <input className='form' type='text' name='email' value={inputs.email || ""} onChange={handleChange} />
                     </label>
@@ -46,7 +50,8 @@ export default function Contact() {
                     <label style={{fontSize: '20px', display: 'flex',
                                     flexDirection: 'row',
                                     justifyContent: 'center',
-                                    alignItems: 'center'}}>
+                                    alignItems: 'center',
+                                    color: '#cdcfd1'}}>
                         Name:
                         <input className='form' type='text' name='name' value={inputs.name || ""} onChange={handleChange} />
                     </label>
@@ -55,7 +60,8 @@ export default function Contact() {
                     <label style={{fontSize: '20px', display: 'flex',
                                     flexDirection: 'row',
                                     justifyContent: 'center',
-                                    alignItems: 'center'}}>
+                                    alignItems: 'center',
+                                    color: '#cdcfd1'}}>
                         Message:
                         <textarea value={inputs.message || ""} onChange={handleChange} name='message'/>
                     </label>

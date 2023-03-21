@@ -14,12 +14,12 @@ export default function Resume() {
                     margin: '10px',
                     padding: '15px',
                     textAlign: 'center',
-                    boxShadow: '2px 2px 20px #2C1647',
+                    boxShadow: '2px 2px 20px #52414a',
                     backgroundColor: 'transparent',
                     borderRadius: '20px',
 
                 }}>
-                    <h1 style={{color: '#4172BA'}}>Design Skills</h1>
+                    <h1 style={{color: '#b35b50'}}>Design Skills</h1>
                     <ul style={{
                         listStyle: 'none'
                     }}>
@@ -35,11 +35,11 @@ export default function Resume() {
                     marginTop: '20px',
                     padding: '15px',
                     textAlign: 'center',
-                    boxShadow: '2px 2px 20px #2C1647',
+                    boxShadow: '2px 2px 20px #52414a',
                     backgroundColor: 'transparent',
                     borderRadius: '20px',
                 }}>
-                    <h1 style={{color: '#4172BA'}}>Technical Skills</h1>
+                    <h1 style={{color: '#b35b50'}}>Technical Skills</h1>
                     <ul style={{
                         listStyle: 'none'
                     }}>
@@ -54,7 +54,7 @@ export default function Resume() {
                 <a href='EmmaWaltho.pdf' download style={{
                     fontSize: '20px',
                     margin: '15px',
-                    color: '#4172BA'
+                    color: '#b35b50'
                 }}>Download my Resume</a>
             </Container>
 
