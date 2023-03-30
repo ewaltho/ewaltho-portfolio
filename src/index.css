@@ -9,7 +9,25 @@
 body {
     background-image: url(./images/wallpaper-1.jpg);
     background-size: 100%;
+    box-sizing: border-box;
+    /* height: 100%; */
     font-family: 'Adamina', serif;
+    color: #cdcfd1;
+}
+
+.About,
+.Home,
+.Contact,
+.Work,
+.Resume {
+    min-height: 100%;
+}
+
+.Footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* margin-top: -50px; */
 }
 
 .Header {
@@ -29,7 +47,8 @@ body {
     color: #cdcfd1;
 }
 
-.Nav a {
+.navBtn,
+.contactBtn {
     font-size: 18px;
     margin: 10px;
     padding: 20px;
@@ -38,7 +57,7 @@ body {
     transition: ease-in-out 0.8s;
 }
 
-.Nav a:hover{
+.navBtn:hover{
     text-shadow: 4px 4px 2px #b35b50;
 }
 
@@ -63,8 +82,15 @@ body {
     transition: ease-in-out 0.8s;
 }
 
-.Home a:hover {
+.Home a:hover,
+.contactBtn:hover {
     background-color: #2f3a3e;
+}
+
+.contactBtn {
+    background: #b35b50;
+    border-radius: 5px;
+    transition: ease-in-out 0.8s;
 }
 
 .Home img {
@@ -80,7 +106,9 @@ body {
     margin-right: 50px;
     height: auto;
     width: 25vw;
-    box-shadow: 15px -15px 10px #b35c508a;
+    /* box-shadow: 15px -15px 10px #b35c508a; */
+    border: 12px solid rgb(233, 233, 233);
+    border-bottom: 43px solid rgb(233, 233, 233);
 }
 
 .Contact .form,
@@ -113,6 +141,44 @@ li {
     color: #cdcfd1;
 }
 
+.workBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.infoBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.descBox {
+    background: #b35b50;
+    padding: 20px;
+    position: absolute;
+    bottom: -40px;
+    margin-top: -40px;
+    margin-left: -400px;
+    width: 55vw;
+}
+
+.learnBtn {
+    position: absolute;
+    right: 90px;
+    bottom: 0px;
+}
+
+.workBox img {
+    position: relative;
+    width: 90vw;
+    border: 12px solid rgb(233, 233, 233);
+    border-bottom: 90px solid rgb(233, 233, 233);
+}
+
 @media screen and (max-width: 1050px) {
     .card-right img {
         width: 35vw;
@@ -120,15 +186,31 @@ li {
 }
 
 @media screen and (max-width: 860px) {
-    .About{
+    .About,
+    .Home{
         flex-direction: column-reverse;
+    }
+
+    body {
+        background-size: 1000px;
     }
     
     .card-right img {
-        width: 60vw;
+        width: 100%;
+        height: auto;
     }
 
     .bio {
         font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .Header {
+        flex-direction: column;
+    }
+
+    .Nav {
+        margin: 10px;
     }
 }

@@ -6,7 +6,8 @@ import Work from './components/Work'
 import Contact from './components/Contact'
 import Resume from './components/Resume'
 import Header from './Header'
-import ThankYou from './components/ThankYou'
+import Footer from './components/Footer'
+import Streamosaurus from './components/Streamosaurus'
 
 const App = () => {
   return (
@@ -16,11 +17,12 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/work" element={<Work />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/resume" element={<Resume />} />
-            <Route path="/thankyou" element={<ThankYou />} />
+            <Route path="/work" element={<Work />} />
+            <Route path='/streamosaurus' element={<Streamosaurus/>} />
           </Routes>
+          <Footer />
       </BrowserRouter>
     </div>
   );

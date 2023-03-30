@@ -55,7 +55,8 @@ export default function Resume() {
                     fontSize: '20px',
                     margin: '15px',
                     color: '#b35b50'
-                }}>Download my Resume</a>
+                }}>Download my Résumé
+                </a>
             </Container>
 
         </div>
