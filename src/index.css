@@ -172,6 +172,54 @@ li {
     bottom: 0px;
 }
 
+.mockupImg{
+    position: relative;
+    filter: brightness(0.6);
+}
+
+.subtitle {
+    position: absolute;
+    bottom: 0;
+    padding: 80px;
+}
+
+.ps {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+}
+
+.philosophy {
+    margin: 40px;
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.statValues p {
+    margin: 10px;
+    margin-left: 100px;
+}
+
+.statTitle p {
+    margin: 10px;
+    color: #b35b50;
+}
+
+.subtitle h1 {
+    font-size: 40px;
+}
+
+.subtitle p {
+    font-size: 25px;
+}
+
 .workBox img {
     position: relative;
     width: 90vw;
