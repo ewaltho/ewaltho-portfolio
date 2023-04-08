@@ -1,12 +1,12 @@
 import React from "react";
 import streamosaurus from '../images/streamosaurus.png'
-import mockup from '../images/streamosaurus_mockup.png'
-import colors from '../images/streamosaurusColors.png'
-import frame from '../images/streamosaurusFrame.png'
-import icons from '../images/streamosaurusIcons.png'
+import mockup from '../images/wildthornMockup.png'
+import colors from '../images/wildthornColors.png'
+import frame from '../images/wildthornFrame.png'
+import icons from '../images/wildthornFigma.png'
 import LaunchIcon from '@mui/icons-material/Launch'
 
-export default function Streamosaurus() {
+export default function Wildthorn() {
     return(
         <div>
             <div>
@@ -16,8 +16,8 @@ export default function Streamosaurus() {
                 }}></img>
                 <div className="subtitle">
                     <div>
-                        <h1>Streamosaurus</h1>
-                        <p>Streaming search made simple</p>
+                        <h1>Wild Thorn Apothecary</h1>
+                        <p>Your digital apothecary garden.</p>
                     </div>
                     {/* <LaunchIcon style={{
                         marginLeft: '100px'
@@ -38,16 +38,16 @@ export default function Streamosaurus() {
                 <div className="ps">
                     <div className="problem">
                         <h1>Problem</h1>
-                        <p>Sometimes it’s hard to find where a movie is streaming. Not many websites exist that provide a streaming service for movies, and the ones that do are confusing to look at.</p>
+                        <p>Beginners to holistic remedies and gardening are often lost when they start their garden. With so many plants to chose from, it becomes a struggle.</p>
                     </div>
                     <div className="solution">
                         <h1>Solution</h1>
-                        <p>Creating a website that acts as a central hub with the dedicated function of finding where movies and shows are streaming, while also providing information about your query.</p>
+                        <p>Saving you trips to the garden section, this app provides you with a custom pre-planned garden which includes your chosen plants along with information about climate, ailments and more.</p>
                     </div>
                 </div>
                 <div className="philosophy">
                     <h1>Philosophy</h1>
-                    <p>Simplicity was the number 1 priority with this design. Utilizing large font, a streamlined layout and contrasting colors. Starting from the top with a large search bar and then moving down to top trending with some critics reviews to give the user ideas if they can’t find what they want.</p>
+                    <p>From the start, we wanted something that felt like a cottage in the woods. The handwriting font gives it a classic feel. The sketch-like font preserving the classic feel while also being more easily legible. The colors stayed soft and welcoming like you're in a garden. Utilizing an alternating card layout, it gives the layout more balance.</p>
                 </div>
                 <div className="elements">
                     <h1 style={{textAlign: 'center', margin: '15px'}}>Elements and Prototyping</h1>

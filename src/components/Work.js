@@ -26,7 +26,7 @@ export default function Work() {
                         <h2 style={{color: 'white'}}>Wild Thorn Apothecary</h2>
                         <p>Wild Thorn Apothecary is an online garden to plan your own apothecary garden.</p>
                     </div>
-                    <Link className='contactBtn learnBtn' to='/streamosaurus'>Learn More</Link>
+                    <Link className='contactBtn learnBtn' to='/wildthorn'>Learn More</Link>
                 </div>
             </div>
             <div className="workBox">
@@ -36,10 +36,10 @@ export default function Work() {
                         <h2 style={{color: 'white'}}>CATtention</h2>
                         <p>An ADHD friendly app to help those with ADHD to study or work in an efficient and fun way.</p>
                     </div>
-                    <Link className='contactBtn learnBtn' to='/streamosaurus'>Learn More</Link>
+                    <Link className='contactBtn learnBtn' to='/cattention'>Learn More</Link>
                 </div>
             </div>
-            <div className="workBox">
+            {/* <div className="workBox">
                 <img src={pennypics}></img>
                 <div className="infoBox">
                     <div className="descBox">
@@ -48,7 +48,7 @@ export default function Work() {
                     </div>
                     <Link className='contactBtn learnBtn' to='/streamosaurus'>Learn More</Link>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
